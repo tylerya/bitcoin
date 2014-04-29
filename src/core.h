@@ -183,6 +183,8 @@ public:
 class CTransaction
 {
 public:
+    //short inflationRate;
+    //short miningVote;  
     static int64_t nMinTxFee;
     static int64_t nMinRelayTxFee;
     static const int CURRENT_VERSION=1;
